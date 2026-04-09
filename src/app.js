@@ -8,7 +8,11 @@ import publicacionRoutes from './routes/Publicacion.routes.js';
 const app = express();
 
 const corsOptions = {
-    origin: ['http://localhost:5173', 'http://localhost:5174', 'https://taller-4-react-fronend-zuy8.vercel.app/'],
+    origin: [
+        'http://localhost:5173', 
+        'http://localhost:5174', 
+        'https://taller-4-react-fronend-zuy8.vercel.app'  // ✅ sin / al final
+    ],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
