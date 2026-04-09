@@ -11,7 +11,8 @@ const corsOptions = {
     origin: [
         'http://localhost:5173', 
         'http://localhost:5174', 
-        'https://taller-4-react-fronend-zuy8.vercel.app'  // ✅ sin / al final
+        'https://taller-4-react-fronend-zuy8.vercel.app',
+        'https://taller-4-react-fronend-45ghxlftn-sebastian787-maxs-projects.vercel.app' // ✅ nueva
     ],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
